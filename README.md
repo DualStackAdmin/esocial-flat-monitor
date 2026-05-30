@@ -53,22 +53,22 @@ pip install -r requirements.txt
 2. Konfiqurasiya
 
 monitor.py faylını istənilən redaktorla açın və şəxsi məlumatlarınızı əlavə edin:
-
+````
 # Öz Telegram Bot Tokeninizi bura yazın (BotFather-dən alına bilər)
 TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
 
 # Mesajın gələcəyi Chat ID (öz ID-niz)
 TELEGRAM_CHAT_ID = "YOUR_CHAT_ID_HERE"
-
+````
 
 Layihə linklərini PROJECTS siyahısından dəyişdirə bilərsiniz. Boş evləri axtarmaq üçün linkin sonunda mütləq flatstatus=nonbooked olmalıdır.
 
 3. Serverdə Avtomatik İşə Salma (Crontab)
 
 Skripti Linux (Ubuntu/Debian/CentOS) serverinizdə arxa fonda daimi işlətmək üçün terminalda crontab -e yazın və ən alt sətrə bunu əlavə edin:
-
+````
 * * * * * /usr/bin/flock -n /home/ubuntu/monitor.lock /usr/bin/python3 /home/ubuntu/esocial-flat-monitor/monitor.py >> /home/ubuntu/monitor_cron.log 2>&1
-
+````
 
 (Qeyd: Fayl yollarını (/home/ubuntu/...) öz sisteminizə uyğun olaraq dəyişməyi unutmayın).
 
