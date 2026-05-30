@@ -44,6 +44,8 @@ Sisteminizdə Python3 quraşdırıldığından əmin olduqdan sonra, repozitoriy
 git clone [https://github.com/DualStackAdmin/esocial-flat-monitor.git](https://github.com/DualStackAdmin/esocial-flat-monitor.git)
 cd esocial-flat-monitor
 pip install -r requirements.txt
+
+
 2. Konfiqurasiya
 monitor.py faylını istənilən redaktorla açın və şəxsi məlumatlarınızı əlavə edin:
 
