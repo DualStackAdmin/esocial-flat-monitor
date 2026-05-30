@@ -48,7 +48,7 @@ git clone [https://github.com/DualStackAdmin/esocial-flat-monitor.git](https://g
 
 cd esocial-flat-monitor
 pip install -r requirements.txt
-
+````
 
 2. Konfiqurasiya
 
