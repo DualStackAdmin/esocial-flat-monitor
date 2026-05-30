@@ -41,7 +41,7 @@ Bu sistemin arxa planında resurslara maksimum qənaət edən və stabil işləy
 Sisteminizdə Python3 quraşdırıldığından əmin olduqdan sonra, repozitoriyanı klonlayın və kitabxanaları yükləyin:
 
 ```bash
-git clone [https://github.com/DualStackAdmin/esocial-flat-monitor.git](https://github.com/DualStackAdmin/esocial-flat-monitor.git)
+git clone https://github.com/DualStackAdmin/esocial-flat-monitor.git
 cd esocial-flat-monitor
 pip install -r requirements.txt
 
@@ -49,13 +49,13 @@ pip install -r requirements.txt
 2. Konfiqurasiya
 monitor.py faylını istənilən redaktorla açın və şəxsi məlumatlarınızı əlavə edin:
 
-Python
 # Öz Telegram Bot Tokeninizi bura yazın (BotFather-dən alına bilər)
 TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
 
 # Mesajın gələcəyi Chat ID (öz ID-niz)
 TELEGRAM_CHAT_ID = "YOUR_CHAT_ID_HERE"
-Layihə linklərini PROJECTS siyahısından dəyişdirə bilərsiniz. Boş evləri axtarmaq üçün linkin sonunda mütləq flatstatus=nonbooked olmalıdır.
+
+
 
 3. Serverdə Avtomatik İşə Salma (Crontab)
 Skripti Linux (Ubuntu/Debian/CentOS) serverinizdə arxa fonda daimi işlətmək üçün terminalda crontab -e yazın və ən alt sətrə bunu əlavə edin:
