@@ -43,8 +43,9 @@ Ağıllı Bildiriş: Yalnızca mənzil tapıldıqda sizi narahat edir. Boş yoxl
 1. Tələblərin Yüklənməsi
 
 Sisteminizdə Python3 quraşdırıldığından əmin olduqdan sonra, repozitoriyanı klonlayın və kitabxanaları yükləyin:
-
+````
 git clone [https://github.com/DualStackAdmin/esocial-flat-monitor.git](https://github.com/DualStackAdmin/esocial-flat-monitor.git)
+
 cd esocial-flat-monitor
 pip install -r requirements.txt
 
